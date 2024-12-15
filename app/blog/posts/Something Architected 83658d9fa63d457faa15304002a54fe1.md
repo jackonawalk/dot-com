@@ -1,0 +1,30 @@
+# Something Architected
+
+Published: July 17, 2020
+
+1. **Workspaces:** Collections of apps and data within a pillar of context
+2. **Apps:** units of capability that are defined by discrete, consistent records
+3. **Records:** A medium to longterm container of fields and data
+4. **Entries:** Short to medium term, highly unstructured data
+5. **Views:** Structured ways to present records (and maybe entries)
+6. **Schema:** Shared, global descriptions of common data practices
+7. **Fields:** Highly structured data with defined parameters
+8. **Relationships:** Containers that related to each other through specific values
+9. **Filters:** Queries performed on a record set as defined by given fields
+10. **Visualizations:** High-level non-linear summaries of larger data sets
+11. **Calculations:** Mathematical queries/summaries of records
+12. **Users:** People who are the subject of data or access
+13. **Share:** Access that’s defined proactively or reactively as driven by context
+14. **Annotations:** Human-driven value-added context
+15. **Devices:** Physical hardware for accessing systems
+16. **Navigation:** Way finding to traverse through contexts and views
+17. **Messages:** Information that informs a user of an action
+18. **Identity:** A way of federating a user as defined by data
+19. **Interfaces:** Pointer modes for the system
+20. **Evaluations:** Machine-driven observations
+21. **Action:** Verbs that happen to data at a timestamp
+22. **Code:** Instructions and language for a machine
+23. **Machine:** A human-driven invention that executes code
+24. **Context:** Channels of data as defined by the limits of cognition
+25. **Human:** An organic, conscious, and dynamically driven machine
+26. **System:** Something architected

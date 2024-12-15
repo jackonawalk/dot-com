@@ -1,0 +1,19 @@
+# The warmth of grief
+
+Published: June 28, 2023
+
+I’ve written about grief here before, so in my quest to understand it, I’d like to submit this to the Intergalactic Grief Compendium.
+
+Grief often feels hollow, bored, listless—all cold sentiments. Conversely, grief can summon hotness like anger and agitation. In between these poles, there’s warm grief. And this kind of grief is wonderful.
+
+Warm grief is when grief becomes bittersweet and washes over you in a wave of nostalgia. The pain of grief dissolved now and the raw, full gratitude of the past left to bathe you in the good times.
+
+One morning, I dreamt of my childhood friends from grade school and how much I missed them and the time we spent together. Grief though, let me feel the playfulness and joy of those times once more before realizing they had passed. The tears that flowed were so warm and magnificent. It felt like the coldness of grief had been heated up and the only place for it to go was out—to tell the world where I was.
+
+Another morning, I dreamt back to living in Northeast Minneapolis and all my regular walks near Logan Park and the deep self-actualization that happened there. Those walks rebirthed me and built a starnav system for my internal compass to navigate. That feeling of newness and discovery so novel. The warm tears of grief brought back this curiosity and tenderness of such a wrought time.
+
+I dreamt back to the giggles, parties, and meals we made together on Wedgewood. The pure sentimentality of growing up. My brain completely simulated for one last time all the smells, voices, and architecture of that place so that I could remember the goodness and move forward. Maybe one day creating my own Wedgewood.
+
+Grandma is getting older and grief helped me cherish our countless roadtrips to Lake Superior. Hiking, learning, and cooking together were such golden times. We still take trips to the lake together but they’re different now. I’ve invited grief in and already grief has helped me start organizing the boxes of these memories—getting them ready for longterm storage. I awoke one morning eyes warm with tears remembering driving up Highway 61 into my childhood. Remember innocence grief instructed.
+
+Until these experiences, I believed grief only to be a dementor—sucking the life from the present unwilling to let go the past. Grief though can be the most wonderful, angelic guide as our consciousness burrows, dips, and dives through memory. With enough space, warm grief can connects us to the best parts of ourselves and reminds us we’re only human.

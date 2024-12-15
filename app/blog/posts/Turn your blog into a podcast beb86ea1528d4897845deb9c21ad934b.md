@@ -1,0 +1,37 @@
+# Turn your blog into a podcast
+
+Published: June 12, 2023
+
+- Listen to this post
+    
+    [https://audiofeed.ai/feed/jacksellwood/e948f6eb-d874-4592-9cc6-806fe01410bb](https://audiofeed.ai/feed/jacksellwood/e948f6eb-d874-4592-9cc6-806fe01410bb)
+    
+
+Last winter, a close friend, Shane Thomas, approached me about building an AI startup with him and a few friends. His early idea was a cloud platform that made it easy for any developer to run their own AI cloud infrastructure. Think Heroku but for AI models. Timing wasn’t right in my life so I passed but asked him to stay in touch.
+
+About a month ago, he launched [AudioFeed.ai](http://AudioFeed.ai) to let anyone turn websites and articles into spoken (and optionally summarized) audio. You could even subscribe to your content via your podcast player! How cool to listen to any written content on the go. I walk a lot and digesting content while on a walk instead of at my desk sounds like a dream.
+
+After using AudioFeed for a bit, I thought: could I add a “Listen Now” button to my posts on jacksellwood.com? I mocked up something to show him:
+
+![audiofeed-jacksellwood.jpg](Turn%20your%20blog%20into%20a%20podcast%20beb86ea1528d4897845deb9c21ad934b/audiofeed-jacksellwood.jpg)
+
+I’d have to manually add each post to AudioFeed and then manually link it back to each page. This isn’t that time consuming—maybe about 30 seconds per article. Thinking about this some more, I realized **what I really wanted was a podcast for jacksellwood.com**. I’ve thought about launching a podcast for years but I don’t know how to edit a podcast nor do I have the equipment. 
+
+Bingo! AudioFeed actually had the core features to let any writer turn their content into a podcast. Give it a listen:
+
+[https://audiofeed.ai/feed/jacksellwood](https://audiofeed.ai/feed/jacksellwood)
+
+Turns out, **there’s a lot of written content out there that you can’t listen to**: ebooks, whitepapers, documents, email newsletters, etc. After a week of brainstorming (and building a deck) with Shane, we’re pivoting AudioFeed to focus on enabling writers and marketers (creators) to convert their written content into spoken audio and make it available as a podcast.
+
+![Screenshot 2023-06-13 at 8.57.15 AM.png](Turn%20your%20blog%20into%20a%20podcast%20beb86ea1528d4897845deb9c21ad934b/Screenshot_2023-06-13_at_8.57.15_AM.png)
+
+Typically to launch a podcast you need:
+
+- Creative: intro, outro, jingle
+- Equipment: mic, studio space, mixing board, software
+- Hosting: XML-compatible podcast feed, file hosting
+- Content: interviews, script, etc
+
+**With AudioFeed, you bring the content and we provide the creative, equipment, and hosting**. You can go from written post to fully managed and hosted podcast in less than 60 seconds. As a fellow writer, the longest part of the process is actually writing the content but how satisfying to know more people will be able to access your content! 
+
+We’re working on more exciting features for AudioFeed. You can [signup here for a free trial](https://audiofeed.ai) and [get in touch](https://www.notion.so/jacksellwood-com-d85d73b9992641ce9834d0c48c4dfc80?pvs=21) to share feedback or chat with us about your use case. Happy writing!

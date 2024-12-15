@@ -1,0 +1,52 @@
+# In defense of context workers
+
+Published: May 3, 2023
+
+- Listen to this post
+    
+    [https://audiofeed.ai/feed/jacksellwood/ee44be93-d132-4a5a-89f6-6d17d4d56ef8](https://audiofeed.ai/feed/jacksellwood/ee44be93-d132-4a5a-89f6-6d17d4d56ef8)
+    
+
+Businesses aggregate their most important data (eg: customers, invoices, projects, etc) so that they can 1) build data visualizations 2) get a full picture of the business regardless of team or department 3) backup critical data.
+
+The solutions to address these three problems are vast and I’ll try and address many of them. Generally, businesses aggregate data with spreadsheets, ETLs, or Cloud-native API-driven tools. Let’s dig in.
+
+### Spreadsheet hustle
+
+Exporting CSVs is the most rudimentary method for getting data out of business systems. This universally works well but is very manual and makes refreshing data difficult and time consuming. Combining data across CSVs involves pivot tables or manually copy/pasting data. You could hoist CSVs up to something like BigQuery but you’ll have stale data almost immediately. You may decide to manually refresh your CSVs but you’ll have a tough time dealing with delta updates (only importing the data that has changed). Timestamps help here but this is still an incredibly manual process. Spreadsheet hustle is sometimes useful (but still very manual) for exploring data when you’re not entirely sure what you’re looking for. Keep in mind though, spreadsheets aren’t secure and downloading files locally expose businesses to data theft and breaches.
+
+### ETLs
+
+Big companies institutionalize this problem by building a data team(s) who purchase (or JFC build) an ETL. In today’s Cloud-native days, ETLs seem like a thing of the past, but they’re still here! Modern platforms like StitchData, Snowflake, Fivetran; and to some degree Segment, let customers seamlessly replicate data from individual data sources into a single data lake (eg: BigQuery, Redshift). Some of these, like StitchData, are very easy to use and don’t require a data team to setup. The major drawback to ETLs if they’re very expensive and error prone. 
+
+For example, extracting data from Hubspot to BigQuery hopefully works but Hubspot’s API is severely rate limited and doesn’t support delta fetching. Many platform APIs have problems like this, and data teams are often on-call to whack-a-mole data inconsistencies as they pop up. 
+
+The data teams that operate ETLs themselves are also expensive and slow. That team is busy maintaining ETLs—don’t bug them! Often the consumers of data—revops people, managers, tech leads, salespeople—deal with frustratingly long wait times getting help from data teams. The best data teams adopt the right tools to make data analysis self service (eg: Looker, Amplitude, or Tableau). But this takes a village and most orgs don’t have the efficiency or focus to build a self service internal data platform. Usually, individuals scrape together the data they need (often via CSVs).
+
+### Cloud-native
+
+An in between of spreadsheet hustle and ETLs, Cloud-native integrations have proliferated. Apps themselves add integrations for bringing in data and and displaying it in one place. Slack lets users send activity to channels, Zapier let’s you send data between apps, Airtable has basic data blending capabilities. A new breed of data tools like Interval and Equals are promising Cloud-native spreadsheets and dashboards that let you seamlessly combine data. Again, these are promising and time will tell if they’re good enough.
+
+Many of these in between tools suffer from reliability and breadth of support issues. They don’t have nearly the universality as ETLs and as new cloud services they suffer from reliability problems. With enough capital, reliability can be solved but this isn’t guaranteed. Let’s presume these apps improve, adding enough supported apps to their marketplaces could still be a problem.
+
+### Aggregation scenarios
+
+All these solutions ultimately seek to help individuals **make business-critical decisions in as little time and effort as possible**. There are different types of business-critical decisions:
+
+1. **In-depth, executive level decisions**: these require a lot of data and a lot of people to deal with the data and make the decision. An example could be a law firm analyzing the past 10 years of cases to determine profitability and inform pivoting firm services towards more profitable cases. 
+2. **Evaluating effectiveness**: these look like reviewing business KPIs and trying to understand if a project or initiative was successful or effective. Examples include: sales pipelines, monthly active users, SLOs. Usually a single individual or small team can aggregate the data needed to calculate these metrics and make a decision.
+3. **Context workers**: small and more subtle are the context-driven decisions that everyone in the business makes every day. This data often isn’t aggregated across time horizons but by a common unique identifier. For example, a customer might be tracked across systems by a common “AccountID” (eg: support, billing, project management, etc).
+
+ETLs generally serve the needs of #1 well. It is a business liability to have quality, longterm data archives for everything going into the business and they help executives make fundamental decisions about the business. The ETLs have won this space and that’s good. Executives have a lot of money to spend on the tools they directly need. They can hire and direct teams to get them the data they need.
+
+When evaluating effectiveness, managers cobble together data from the ETLs, CSVs, and from platforms like Amplitude or Heap. This generally works but can be frustrating. 
+
+### Meet, context workers
+
+Of all these solutions and use cases, the most poorly solved are contextual decisions. Context workers across the org, generally support reps, sales people, account executives, product managers, suffer as they click across business apps to follow a thread of context. This often is a customer account or a specific project or initiative. These individuals hunt and peck across systems to get the data they need. 
+
+Many businesses attempt to solve contextual decisions by building intranets and internal dashboards. Modern apps like Retool and Internal promise to make it easier to build these. Often though, engineering or IT build and maintain internal tools for these context-driven individuals. This means individuals who need context-driven data are waiting on IT or engineering (just like the data team) to build the dashboards they need to do their jobs. As a company grows, they build more internal tools to meet the needs of different context workers across the orgs. This spurs many repeated apps and one-off solutions to generally solve the same problems. It’s a mess. 
+
+The fundamental problem for context workers is that they’re unable to build their own tools. Translating all their micro interactions across systems and across customers, teams, and other individuals inside and outside the org are numerous. Translating these tasks and interactions to a designer and/or engineer is challenging. 
+
+There must be a better way. These context workers need to be empowered to build their own tools that traverse every business system, app, and corner of information—in as little time as possible. Today they spend an ungodly amount of time and mental power cobbling together the information they need to do their jobs.

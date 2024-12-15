@@ -1,0 +1,58 @@
+# Share the middle
+
+Published: November 18, 2021
+
+Popular at many software companies is the "squad model" where each squad has embedded teammates for disciples like product, engineering, design, data science, and more. Squads are great; and in my opinion, the best way to build high-functioning, high-rapport software groups.
+
+Nearly every squad I've worked with though, the line between product management (PM) and engineering management (EM) is dubiously unclear. You'll hear things like:
+
+1. "PM develops the strategy and EM worries about technical feasibility"
+2. "EM schedules release and PM coordinates with marketing"
+3. "PM talks to customers and EM verifies quality with customer testing"
+
+In reality, things are more fluid:
+
+1. PM develops the strategy but adjusts scope based on engineering feasibility
+2. EM schedules releases and communicates these to marketing
+3. PM and EM talk to customers all the time, together, separately, and both bubble up this feedback for the roadmap.
+
+In fact, the best EMs I've ever worked with act a little bit like PMs, and the best PMs seem to act a little bit like EMs. If both end up doing similar work, why have both an EM and PM on every squad?
+
+Because it takes two. It takes double duty obsession to deliver great software.
+
+If we acknowledge this reality, EM and PM should overlap most of the time. Like this:
+
+![overview.png](Share%20the%20middle%20aae73dc90b264de2b0781b92ea2e5b9e/overview.png)
+
+In this diagram, PM and EM overlap for the middle half of their job functions. There's a minority of things each does without the other. For example, EM provides the management function for engineers on the squad and implements engineering best practices. PM develops the longterm strategy for the squad based on customer feedback and business objectives. Beyond domains like these, any division between EM and PM is anachronistic. Instead, EM and PM share all this:
+
+- Project scope, story writing
+- Data research and telemetry
+- Release process and stakeholder management
+- Customer testing and QA
+
+![share.png](Share%20the%20middle%20aae73dc90b264de2b0781b92ea2e5b9e/share.png)
+
+If we take job title out of it, we can think of strategy and execution on a similar spectrum. Strategy is great but the toughest part is translating and sustaining this into execution. With this framing, it's easier to reason that you'd need two leaders (EM and PM) to collaborate and share this middle ground.
+
+![abstract.png](Share%20the%20middle%20aae73dc90b264de2b0781b92ea2e5b9e/abstract.png)
+
+Where the two meet in the middle is vast and wide. For example, decreasing batch size (ie: be more agile) requires cooperation between the strategy and execution. This ability for PMs and EMs to collaborate together is the difference between healthy high-functioning squads and unhealthy ones. 
+
+It's possible to build high-functioning squads without a balanced middle, but they don't look good.
+
+Here, the EM performs most functions on the squad except strategy. There's a little overlap with stakeholder management:
+
+![just strategy.png](Share%20the%20middle%20aae73dc90b264de2b0781b92ea2e5b9e/just_strategy.png)
+
+Here, the PM performs most functions on the squad except people management. There's a little overlap allocating engineering resources:
+
+![people mangement.png](Share%20the%20middle%20aae73dc90b264de2b0781b92ea2e5b9e/people_mangement.png)
+
+### Takeaways
+
+Ideally, both EM and PM share the middle half, but this is difficult to achieve. Organizational bias and setting the wrong expectations during hiring can make it difficult to cultivate the deep collaboration for sharing the middle.
+
+Instead, strive for sharing the middle. PMs, help your EMs work with customers and scope releases more. EMs, help your PMs understand technical feasibility and engineering health metrics like velocity.
+
+The whole point of this is to acknowledge that the best EMs and PMs overlap a ton. This overlap is great—it should be encouraged and cultivated. Too often, we put rigid definitions between product and engineering. Probably because this is easier than learning how to collaborate.

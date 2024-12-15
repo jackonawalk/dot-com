@@ -1,0 +1,45 @@
+# Short-term or Long-term
+
+Published: March 30, 2021
+
+From short-term decisions like takeout for dinner to long-term decisions like funding an investment portfolio, we decide to spend value on the immediate or on the long-haul. Value might mean money, time, or [will](https://jacksellwood.com/on-will/). Either way, it’s vital to choose intentionally. We’re either leveraging value right now or maximizing it for later.
+
+Short-term decisions alter our moods, kick us into gear, and maintain homeostasis. These salves help us get through the day, but the value they use isn’t renewable.
+
+Short-term value:
+
+- Fast food, dessert, takeout
+- Social media
+- Caffeine
+- Driving
+- TV shows
+- Doomscrolling
+- Upgrading to the latest smartphone
+- Sitting in traffic
+- Meetings
+- Fast fashion
+- Venting to friends
+- Moving around constantly
+
+Long-term value:
+
+- Learning to cook
+- Gathering with friends
+- Deep sleep
+- Walking
+- Movies, documentaries
+- Reading
+- Investing in hobbies
+- Planning ahead
+- Headspace for creative, strategic work
+- Durable goods
+- Finding a damn therapist
+- Staying for a while
+
+*This list obviously isn’t extensive: it’s simply meant to illustrate ideas for shifting from short-term value to long-term value activities. In fact, this is my list. Yours will, should, look different—reflecting your life and goals.*
+
+While some short-term value spending is necessary, we can work to minimize it to make room for the future. Long-term activities bring a sense of security and build opportunity successively. They generate learning, enduring experiences, and help us build our internal compass—all of which we can share with others. This makes life a lot more interesting.
+
+Much like the stock market, there will be missteps, mistakes, and the occasional regression. But in the spirit of Bob Ross, these [“happy little accidents”](https://www.youtube.com/watch?v=Fw6odlNp7_8) are their own valuable, long-term activity. Learning to weather the storm of life and experiment means building the most enduring trait of all: self examination. Self examination leads us forward when we’re stuck, dissatisfied, or lost on where to go next.
+
+Have faith for a moment and believe that this focus is worth it: life becomes fuller, more validating, and [aligned](https://jacksellwood.com/alignment-with-way-less-push/) with where we want to be. You could say, it pays dividends.
