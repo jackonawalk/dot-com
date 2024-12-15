@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-const navItems = {
+const navItems: { [key: string]: { name: string; target?: string } } = {
   "/blog": {
     name: "writing",
   },
