@@ -25,19 +25,22 @@ importers:
         version: 1.1.3
       '@vercel/speed-insights':
         specifier: ^1.0.9
-        version: 1.0.9(next@14.2.0-canary.62)(react@18.2.0)
+        version: 1.0.9(next@14.2.0-canary.62(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
       geist:
         specifier: 1.2.2
-        version: 1.2.2(next@14.2.0-canary.62)
+        version: 1.2.2(next@14.2.0-canary.62(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       next:
         specifier: canary
-        version: 14.2.0-canary.62(react-dom@18.2.0)(react@18.2.0)
+        version: 14.2.0-canary.62(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-mdx-remote:
         specifier: ^4.4.1
-        version: 4.4.1(react-dom@18.2.0)(react@18.2.0)
+        version: 4.4.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       postcss:
         specifier: ^8.4.35
         version: 8.4.35
+      posthog-js:
+        specifier: ^1.202.5
+        version: 1.202.5
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -313,6 +316,9 @@ packages:
   comma-separated-tokens@2.0.3:
     resolution: {integrity: sha512-Fu4hJdvzeylCfQPp9SGWidpzrMs7tTrlu6Vb8XGaRGck8QSNZJJp538Wrb60Lax4fPwR64ViY468OIUTbRlGZg==}
 
+  core-js@3.39.0:
+    resolution: {integrity: sha512-raM0ew0/jJUqkJ0E6e8UDtl+y/7ktFivgWvqw8dNSQeNWoSDLvQ1H/RN3aPXB9tBd4/FhyR4RDPGhsNIMsAn7g==}
+
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
@@ -361,6 +367,9 @@ packages:
 
   extend@3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
+
+  fflate@0.4.8:
+    resolution: {integrity: sha512-FJqqoDBR00Mdj9ppamLa/Y7vxm+PRmNWA67N846RvsoYVMKB4q3y/de5PA7gUmRMYK/8CMz2GDZQmCRN1wBcWA==}
 
   function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
@@ -676,6 +685,12 @@ packages:
     resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
     engines: {node: ^10 || ^12 || >=14}
 
+  posthog-js@1.202.5:
+    resolution: {integrity: sha512-ZkUPkdO35Di2croJByHvBVp/sACq5KJEIaYRchUrr5lRK/57B/s6d5Y5PV374pbWpKhJdXRkUXd3ZUKJ8bOmfw==}
+
+  preact@10.25.3:
+    resolution: {integrity: sha512-dzQmIFtM970z+fP9ziQ3yG4e3ULIbwZzJ734vaMVUTaKQ2+Ru1Ou/gjshOYVHCcd1rpAelC6ngjvjDXph98unQ==}
+
   property-information@6.4.1:
     resolution: {integrity: sha512-OHYtXfu5aI2sS2LWFSN5rgJjrQ4pCy8i1jubJLe2QvMF8JJ++HXTUIVWFLfXJoaOfvYYjk2SN8J2wFUWIGXT4w==}
 
@@ -815,6 +830,9 @@ packages:
 
   vfile@5.3.7:
     resolution: {integrity: sha512-r7qlzkgErKjobAmyNIkkSpizsFPYiUPuJb5pNW1RB4JcYVZhs4lIbVqk8XPk033CV/1z8ss5pkax8SuhGpcG8g==}
+
+  web-vitals@4.2.4:
+    resolution: {integrity: sha512-r4DIlprAGwJ7YM11VZp4R884m0Vmgr6EAKe3P+kO0PPj3Unqyvv59rczf6UiGcb9Z8QxZVcqKNwv/g0WNdWwsw==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -989,9 +1007,9 @@ snapshots:
     dependencies:
       server-only: 0.0.1
 
-  '@vercel/speed-insights@1.0.9(next@14.2.0-canary.62)(react@18.2.0)':
-    dependencies:
-      next: 14.2.0-canary.62(react-dom@18.2.0)(react@18.2.0)
+  '@vercel/speed-insights@1.0.9(next@14.2.0-canary.62(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)':
+    optionalDependencies:
+      next: 14.2.0-canary.62(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
 
   acorn-jsx@5.3.2(acorn@8.11.3):
@@ -1025,6 +1043,8 @@ snapshots:
   client-only@0.0.1: {}
 
   comma-separated-tokens@2.0.3: {}
+
+  core-js@3.39.0: {}
 
   csstype@3.1.3: {}
 
@@ -1071,11 +1091,13 @@ snapshots:
 
   extend@3.0.2: {}
 
+  fflate@0.4.8: {}
+
   function-bind@1.1.2: {}
 
-  geist@1.2.2(next@14.2.0-canary.62):
+  geist@1.2.2(next@14.2.0-canary.62(react-dom@18.2.0(react@18.2.0))(react@18.2.0)):
     dependencies:
-      next: 14.2.0-canary.62(react-dom@18.2.0)(react@18.2.0)
+      next: 14.2.0-canary.62(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
   graceful-fs@4.2.11: {}
 
@@ -1500,7 +1522,7 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  next-mdx-remote@4.4.1(react-dom@18.2.0)(react@18.2.0):
+  next-mdx-remote@4.4.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/react': 2.3.0(react@18.2.0)
@@ -1511,7 +1533,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  next@14.2.0-canary.62(react-dom@18.2.0)(react@18.2.0):
+  next@14.2.0-canary.62(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@next/env': 14.2.0-canary.62
       '@swc/helpers': 0.5.5
@@ -1579,6 +1601,15 @@ snapshots:
       nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  posthog-js@1.202.5:
+    dependencies:
+      core-js: 3.39.0
+      fflate: 0.4.8
+      preact: 10.25.3
+      web-vitals: 4.2.4
+
+  preact@10.25.3: {}
 
   property-information@6.4.1: {}
 
@@ -1740,5 +1771,7 @@ snapshots:
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
+
+  web-vitals@4.2.4: {}
 
   zwitch@2.0.4: {}
