@@ -8,8 +8,16 @@ import PostHogPageView from "./PostHogPageView";
 
 export function PostHogProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
-    posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
-      api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST,
+    const phKey = process.env.NEXT_PUBLIC_POSTHOG_KEY;
+    const phHost = process.env.NEXT_PUBLIC_POSTHOG_HOST;
+    
+    if (!phKey || !phHost) {
+      console.error('PostHog configuration is missing');
+      return;
+    }
+
+    posthog.init(phKey, {
+      api_host: phHost,
       capture_pageview: false, // Disable automatic pageview capture, as we capture manually
       capture_pageleave: true,
     });
